@@ -15,6 +15,30 @@ PHPManager uses a module based system in order to allow for fully customised web
  
  The regex system(ModuleVar) uses regex sysntax to search a target page and replace any matches with a return from the designated function
  
- 
- 
+Example Module:
+```php
+<?php
+
+$appName = "TestApp";//Name of the module
+$appEnabled = true;//Enable/Disable app from loading and executing
+
+$hooks = [
+["activation","test"]// Register Hook for Activation and function Test
+];
+
+$vars = [
+["/({testVar})/","testVar"]
+];
+
+
+function test(){
+  echo "Test Function Loaded";
+}
+
+function testVar(){
+  return "Test var response";
+}
+
+?>
+ '''
  
