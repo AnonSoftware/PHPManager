@@ -9,7 +9,7 @@ PHPManager uses a module based system in order to allow for fully customised web
 
 
 
- **How it works
+ **How it works**
  
  PHPManager Modules utalise simple mehanics such as Regex and a Hook based system to call extra functions
  
