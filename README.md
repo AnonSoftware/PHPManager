@@ -6,7 +6,7 @@ Ever used Wordpress but wanted to make your own site with more customisation wel
 
 PHPManager uses a module based system in order to allow for fully customised websites.
 
-
+Rename Copy.htaccess to .htaccess(Github hid the file on upload)
 
 
  **How it works**
