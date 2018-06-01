@@ -44,7 +44,7 @@ function testVar(){
  
  Example Module Folder Location:
  
- $websiteFolder/modules/(appname)/(<appname>).php
+ $websiteFolder/modules/(appname)/(appname).php
  
  
  *Pages:*
