@@ -44,12 +44,12 @@ function testVar(){
  
  Example Module Folder Location:
  
- $websiteFolder/modules/<appname>/<appname>.php
+ $websiteFolder/modules/(appname)/(<appname>).php
  
  
  *Pages:*
  
- Pages folder: $website/pages/<pagename>.php
+ Pages folder: $website/pages/(pagename).php
  
  Website Pages use normal HTML,PHP,CSS,JavaScript syntax to deliver a page to the user however
 Modules can add their own syntaxing for you to utalise as listed above
